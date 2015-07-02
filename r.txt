@@ -1,0 +1,30 @@
+
+Header size: 96 bytes
+
+Sample     : 'r.wav'
+Length     : 2784000 samples
+Num nibbles: 3181716 ADPCM nibbles
+Sample Rate: 32000 Hz
+Loop Flag  : NOT LOOPED
+
+Start Addr : 0x00000002 + ARAM_offset (ADPCM nibble mode)
+End Addr   : 0x00308C93 + ARAM_offset (ADPCM nibble mode)
+Curr Addr  : 0x00000002 + ARAM_offset (ADPCM nibble mode)
+
+a1[0]: 0x0534 a2[0]: 0xFE22 
+a1[1]: 0x0B9A a2[1]: 0xFA98 
+a1[2]: 0x076A a2[2]: 0xFF36 
+a1[3]: 0x0BA7 a2[3]: 0xFBE6 
+a1[4]: 0x08B7 a2[4]: 0xFC68 
+a1[5]: 0x0D7B a2[5]: 0xF9C1 
+a1[6]: 0x08CE a2[6]: 0xFEC4 
+a1[7]: 0x0CF8 a2[7]: 0xFAEB 
+
+Gain      : 0x0000
+Pred/Scale: 0x0040
+y[n-1]    : 0x0000
+y[n-2]    : 0x0000
+
+Loop Pred/Scale: 0x0000
+Loop y[n-1]    : 0x0000
+Loop y[n-2]    : 0x0000
