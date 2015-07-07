@@ -1,0 +1,6 @@
+one <- replicate(100000, sample(6, 5, replace=T))
+meanz <- colMeans(one, na.rm = FALSE, dims = 1)
+hist(meanz, freq=F)
+xv <- seq(0,10,0.1)
+yv <- dnorm(xv, mean=mean(meanz),sd=sd(meanz))
+lines(xv, yv)
